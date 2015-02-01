@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OutFlagCalc</class>
+ <widget class="QWidget" name="OutFlagCalc">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>702</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>OutFlagCalc</string>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>281</width>
+     <height>645</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="of1Layout">
+    <item>
+     <widget class="QCheckBox" name="of1_00">
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="toolTip">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>KEEP_RESOURCE_OPEN</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="bit" stdset="0">
+       <number>0</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_01">
+      <property name="text">
+       <string>WIDE_TIME_INPUT</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>1</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_02">
+      <property name="text">
+       <string>NON_PARAM_VARY</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>2</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_03">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>RESERVED6</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+      <property name="bit" stdset="0">
+       <number>3</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_04">
+      <property name="text">
+       <string>SEQUENCE_DATA_NEEDS_FLATTENING</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>4</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_05">
+      <property name="text">
+       <string>I_DO_DIALOG</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>5</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_06">
+      <property name="text">
+       <string>USE_OUTPUT_EXTENT</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>6</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_07">
+      <property name="text">
+       <string>SEND_DO_DIALOG</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>7</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_08">
+      <property name="text">
+       <string>DISPLAY_ERROR_MESSAGE</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>8</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_09">
+      <property name="text">
+       <string>I_EXPAND_BUFFER</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>9</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_10">
+      <property name="text">
+       <string>PIX_INDEPENDENT</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>10</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_11">
+      <property name="text">
+       <string>I_WRITE_INPUT_BUFFER</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>11</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_12">
+      <property name="text">
+       <string>I_SHRINK_BUFFER</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>12</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_13">
+      <property name="text">
+       <string>WORKS_IN_PLACE</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>13</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_14">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>RESERVED8</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>14</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_15">
+      <property name="text">
+       <string>CUSTOM_UI</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>15</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_16">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>RESERVED7</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>16</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_17">
+      <property name="text">
+       <string>REFRESH_UI</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>17</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_18">
+      <property name="text">
+       <string>NOP_RENDER</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>18</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_19">
+      <property name="text">
+       <string>I_USE_SHUTTER_ANGLE</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>19</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_20">
+      <property name="text">
+       <string>I_USE_AUDIO</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>20</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_21">
+      <property name="text">
+       <string>I_AM_OBSOLETE</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>21</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_22">
+      <property name="text">
+       <string>FORCE_RERENDER</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>22</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_23">
+      <property name="text">
+       <string>PiPL_OVERRIDES_OUTDATA_OUTFLAGS</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>23</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_24">
+      <property name="text">
+       <string>I_HAVE_EXTERNAL_DEPENDENCIES</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_25">
+      <property name="text">
+       <string>DEEP_COLOR_AWARE</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>25</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_26">
+      <property name="text">
+       <string>SEND_UPDATE_PARAMS_UI</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>26</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_27">
+      <property name="text">
+       <string>AUDIO_FLOAT_ONLY</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>27</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_28">
+      <property name="text">
+       <string>AUDIO_IIR</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>28</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_29">
+      <property name="text">
+       <string>I_SYNTHESIZE_AUDIO</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>29</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_30">
+      <property name="text">
+       <string>AUDIO_EFFECT_TOO</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>30</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of1_31">
+      <property name="text">
+       <string>AUDIO_EFFECT_ONLY</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>31</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>40</y>
+     <width>392</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="of2Layout">
+    <item>
+     <widget class="QCheckBox" name="of2_00">
+      <property name="text">
+       <string>SUPPORTS_QUERY_DYNAMIC_FLAGS</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>0</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_01">
+      <property name="text">
+       <string>I_USE_3D_CAMERA</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>1</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_02">
+      <property name="text">
+       <string>I_USE_3D_LIGHTS</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>2</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_03">
+      <property name="text">
+       <string>PARAM_GROUP_START_COLLAPSED_FLAG</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>3</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_04">
+      <property name="text">
+       <string>I_AM_THREADSAFE</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>4</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_05">
+      <property name="text">
+       <string>CAN_COMBINE_WITH_DESTINATION</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>5</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_06">
+      <property name="text">
+       <string>DOESNT_NEED_EMPTY_PIXELS</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>6</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_07">
+      <property name="text">
+       <string>REVEALS_ZERO_ALPHA</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>7</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_08">
+      <property name="text">
+       <string>PRESERVES_FULLY_OPAQUE_PIXELS</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>8</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_09">
+      <property name="text">
+       <string>SUPPORTS_SMART_RENDER</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>9</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_10">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>RESERVED9</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>10</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_11">
+      <property name="text">
+       <string>FLOAT_COLOR_AWARE</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>11</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_12">
+      <property name="text">
+       <string>I_USE_COLORSPACE_ENUMERATION</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>12</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_13">
+      <property name="text">
+       <string>I_AM_DEPRECATED</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>13</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_14">
+      <property name="text">
+       <string>PPRO_DO_NOT_CLONE_SEQUENCE_DATA_FOR_RENDER</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>14</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_15">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>RESERVED10</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>15</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_16">
+      <property name="text">
+       <string>AUTOMATIC_WIDE_TIME_INPUT</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>16</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_17">
+      <property name="text">
+       <string>I_USE_TIMECODE</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>17</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_18">
+      <property name="text">
+       <string>DEPENDS_ON_UNREFERENCED_MASKS</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>18</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="of2_19">
+      <property name="text">
+       <string>OUTPUT_IS_WATERMARKED</string>
+      </property>
+      <property name="bit" stdset="0">
+       <number>19</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="PF_OutFlags">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>281</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PF_OutFlags</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PF_OutFlags2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>20</y>
+     <width>281</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PF_OutFlag2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PF_OutFlags_value">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>730</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AE_Effect_Global_OutFlags</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PF_OutFlags2_value">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>780</y>
+     <width>191</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AE_Effect_Global_OutFlags_2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PF_GlobalCmd">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>710</y>
+     <width>161</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PF_GlobalCmd code</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="of1_result">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>750</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="of2_result">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>800</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="PF_GlobalCmd_code">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>730</y>
+     <width>461</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>of1_00</tabstop>
+  <tabstop>of1_01</tabstop>
+  <tabstop>of1_02</tabstop>
+  <tabstop>of1_03</tabstop>
+  <tabstop>of1_04</tabstop>
+  <tabstop>of1_05</tabstop>
+  <tabstop>of1_06</tabstop>
+  <tabstop>of1_07</tabstop>
+  <tabstop>of1_08</tabstop>
+  <tabstop>of1_09</tabstop>
+  <tabstop>of1_10</tabstop>
+  <tabstop>of1_11</tabstop>
+  <tabstop>of1_12</tabstop>
+  <tabstop>of1_13</tabstop>
+  <tabstop>of1_14</tabstop>
+  <tabstop>of1_15</tabstop>
+  <tabstop>of1_16</tabstop>
+  <tabstop>of1_17</tabstop>
+  <tabstop>of1_18</tabstop>
+  <tabstop>of1_19</tabstop>
+  <tabstop>of1_20</tabstop>
+  <tabstop>of1_21</tabstop>
+  <tabstop>of1_22</tabstop>
+  <tabstop>of1_23</tabstop>
+  <tabstop>of1_24</tabstop>
+  <tabstop>of1_25</tabstop>
+  <tabstop>of1_26</tabstop>
+  <tabstop>of1_27</tabstop>
+  <tabstop>of1_28</tabstop>
+  <tabstop>of1_29</tabstop>
+  <tabstop>of1_30</tabstop>
+  <tabstop>of1_31</tabstop>
+  <tabstop>of2_00</tabstop>
+  <tabstop>of2_01</tabstop>
+  <tabstop>of2_02</tabstop>
+  <tabstop>of2_03</tabstop>
+  <tabstop>of2_04</tabstop>
+  <tabstop>of2_05</tabstop>
+  <tabstop>of2_06</tabstop>
+  <tabstop>of2_07</tabstop>
+  <tabstop>of2_08</tabstop>
+  <tabstop>of2_09</tabstop>
+  <tabstop>of2_10</tabstop>
+  <tabstop>of2_11</tabstop>
+  <tabstop>of2_12</tabstop>
+  <tabstop>of2_13</tabstop>
+  <tabstop>of2_14</tabstop>
+  <tabstop>of2_15</tabstop>
+  <tabstop>of2_16</tabstop>
+  <tabstop>of2_17</tabstop>
+  <tabstop>of2_18</tabstop>
+  <tabstop>of2_19</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>of1_01</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>54</x>
+     <y>72</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-17</x>
+     <y>70</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_02</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>50</x>
+     <y>90</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-110</x>
+     <y>87</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_03</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-32</x>
+     <y>108</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_04</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>36</x>
+     <y>126</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-96</x>
+     <y>130</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_05</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>149</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-68</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_06</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>44</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-56</x>
+     <y>170</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_07</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>50</x>
+     <y>193</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-79</x>
+     <y>190</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_08</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>52</x>
+     <y>208</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-61</x>
+     <y>208</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_09</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>45</x>
+     <y>226</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-108</x>
+     <y>231</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_10</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>44</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-69</x>
+     <y>250</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_11</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>49</x>
+     <y>271</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-85</x>
+     <y>268</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_12</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>293</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-110</x>
+     <y>289</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_13</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>46</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-92</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_14</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>43</x>
+     <y>328</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-109</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_15</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>354</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-162</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_16</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>49</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-306</x>
+     <y>370</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_17</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>60</x>
+     <y>390</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-206</x>
+     <y>389</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_18</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>50</x>
+     <y>412</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-147</x>
+     <y>409</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_19</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>431</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-230</x>
+     <y>429</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_20</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>449</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-153</x>
+     <y>450</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_21</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>50</x>
+     <y>471</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-204</x>
+     <y>467</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_22</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>63</x>
+     <y>484</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-163</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_23</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>71</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-216</x>
+     <y>508</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_24</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>52</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-267</x>
+     <y>531</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_25</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-167</x>
+     <y>550</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_26</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>45</x>
+     <y>563</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-202</x>
+     <y>569</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_27</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>56</x>
+     <y>590</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-225</x>
+     <y>588</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_28</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>85</x>
+     <y>609</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-165</x>
+     <y>607</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_29</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>66</x>
+     <y>637</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-194</x>
+     <y>628</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_30</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>89</x>
+     <y>646</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-184</x>
+     <y>650</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_31</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>48</x>
+     <y>673</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-206</x>
+     <y>668</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_00</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>453</x>
+     <y>48</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>763</x>
+     <y>50</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_01</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>432</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>814</x>
+     <y>69</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_02</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>590</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>782</x>
+     <y>91</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_03</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>586</x>
+     <y>114</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>831</x>
+     <y>109</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_04</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>660</x>
+     <y>126</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>820</x>
+     <y>129</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_05</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>563</x>
+     <y>143</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>846</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_06</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>598</x>
+     <y>167</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>931</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_07</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>531</x>
+     <y>194</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>863</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_08</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>550</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>839</x>
+     <y>208</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_09</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>497</x>
+     <y>230</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>882</x>
+     <y>228</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_10</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>549</x>
+     <y>250</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>861</x>
+     <y>248</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_11</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>426</x>
+     <y>265</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>802</x>
+     <y>268</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_12</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>538</x>
+     <y>286</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>865</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_13</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>391</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>823</x>
+     <y>308</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_14</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>498</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>840</x>
+     <y>327</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_15</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>523</x>
+     <y>345</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>883</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_16</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>476</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>850</x>
+     <y>368</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_17</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>442</x>
+     <y>389</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>811</x>
+     <y>385</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_18</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>570</x>
+     <y>411</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>898</x>
+     <y>409</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of2_19</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>580</x>
+     <y>427</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>843</x>
+     <y>428</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>of1_00</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>OutFlagCalc</receiver>
+   <slot>calc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>55</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-73</x>
+     <y>50</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>calcOF1()</slot>
+  <slot>calcOF2()</slot>
+  <slot>calc()</slot>
+ </slots>
+</ui>
